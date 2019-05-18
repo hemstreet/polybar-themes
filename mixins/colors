@@ -1,0 +1,7 @@
+background = #222
+background-alt = #444
+foreground = #dfdfdff
+foreground-alt = #555
+primary = #e60053
+alert = #bd2c40
+; vim:ft=dosini
