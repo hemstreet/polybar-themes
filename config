@@ -16,18 +16,16 @@
 ;
 ;==========================================================
 
-;[includes]
-; files listed here are added to polybar's config
-;colors = "./mixins/colors"
-
 [colors]
-include-file = ~/.config/polybar/mixins/colors
-;background-alt = ${includes.colors.background-alt}
-;foreground = ${includes.colors.foreground}
-;foreground-alt = ${includes.colors.foreground-alt}
-;primary = ${includes.colors.primary}
-;secondary = ${includes.colors.secondary}
-;alert = ${includes.colors.alert}
+;background = ${xrdb:color0:#222}
+background = #222
+background-alt = #444
+;foreground = ${xrdb:color7:#222}
+foreground = #dfdfdf
+foreground-alt = #555
+primary = #ffb52a
+secondary = #e60053
+alert = #bd2c40
 
 [bar/main]
 ; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
